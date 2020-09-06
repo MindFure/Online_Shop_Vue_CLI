@@ -1,6 +1,6 @@
 <template>
   <div id="d-main-wrapper">
-   <h1>Говно </h1>
+   
     <dCatalog />
     <dCart />
   </div>
@@ -21,12 +21,9 @@ export default {
 }
 </script>
 
-<style>
-.d-main-wrapper{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+<style lang="scss">
+#d-main-wrapper{
+    
     max-width: 900px;
     margin: 0 auto;
 
